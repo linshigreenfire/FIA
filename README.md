@@ -9,7 +9,7 @@ This repo contains supporting information for the paper __A Functionality-based 
 }
 ```
 
-### Case Study One: The Swiss Army Knife
+### Case Study One: The Swiss Army knife
 1. Part mass data file (in Excel): SwissArmyKnife_MassCAD.xlsx
 2. Functionality-based impact calculation file (in Matlab): FIA_example_twoFunc_calc.m and FIA_example_allFunc_calc.m 
 
