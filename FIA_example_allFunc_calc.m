@@ -69,4 +69,6 @@ S_case = inv(A_case)*F_case_full
 B_case = [4.76,7.8,9.15,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1]
 G_case_full = B_case*S_case
 FF=sum(G_case_full)/(255*4.76+107*7.8+6*9.15+0.4)
-FF_allo=sum(G_case)/2103.7
+time = [39.9, 110.5, 63.2, 32.5, 69.6, 76.9, 26.8, 29.7, 87.2, 90.7, 43.1, 128.3, 56.7, 33.8, 11.11]
+time = time/sum(time)
+FF_allo=sum(G_case_full.*time)/2103.7
